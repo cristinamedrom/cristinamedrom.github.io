@@ -1,0 +1,173 @@
+html {
+    background-image: url(/archivo-imagen/background-flores-edited.png);
+    background-size: 20%;
+    background-repeat: repeat;
+    
+}
+
+.logoMyPortfolio {
+    width: 120px;
+    height: 31px;
+    padding: 5px;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#buttonSearch {
+    width: 41px;
+    height: 13px;
+    font-size: 8px;
+    border: 1px #607989;
+}
+
+#buttonSearch:hover {
+    background-color: #d3eafa;
+    border: 1px;
+    border-color: #b1c2d3;
+}
+
+body {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #073b5e;
+    color: white;
+}
+
+h3 {
+    font-size: 13px;
+}
+
+.profilePic {
+    height: 160px;
+    width: 160px;
+}
+
+.iconos { 
+    height: 15px;
+    width: 15px;
+}
+
+.videoANHQV {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicioPerfil {
+    display: flex;
+    flex-flow: column;
+    font-size: 10px;
+    font-family: 'Outfit', sans-serif;
+    gap: 2px;
+    padding: 0;
+}
+
+.info {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menuFlex {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    font-size: 7px;
+    font-family: verdana, arial, sans-serif, helvetica;
+    flex-wrap: wrap;
+}
+
+nav {
+    border-top: aliceblue 1px solid;
+    border-bottom: aliceblue 1px solid;
+}
+
+footer {
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+    font-family: verdana, arial, sans-serif, helvetica;
+    background-color: #607989;
+
+}
+
+.entradasBlog {
+    background-color: #607989;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.elementoAmarillo {
+    background-color: #073b5e;
+    padding: 5px;
+}
+
+a:visited, a:link {
+    color: white;
+    text-decoration:none;
+}
+
+a:hover {
+    color: #85a9bf;
+}
+
+.botonAdd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttonAdd {
+    font-family: 'Outfit', sans-serif;
+    font-style: bold;
+    font-size: 10px;
+    color: #073b5e;
+    background-color: #cf9900;
+    border-radius: 3px;
+    border: 1px solid #85a9bf;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+}
+
+#buttonAdd:hover {
+    font-family: 'Outfit', sans-serif;
+    font-style: bold;
+    color: #4999cf;
+    background-color: #746025;
+    border-radius: 3px;
+    border: 1px solid #85a9bf;
+}
+
+audio {
+    width: 160px;
+    height: 40px;
+}
+
+@media (min-width: 728px) {
+    .inicioPerfil {
+        display: flex;
+        flex-flow: row;
+        font-size: 10px;
+        margin-left: 10px;
+        font-family: 'Outfit', sans-serif;
+        gap: 2px;
+        padding: 0;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        align-items: auto;
+    }
+    
+  }
+
+/*https://spacehey.com/profile?id=2055716*/
